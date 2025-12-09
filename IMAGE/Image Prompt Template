@@ -1,0 +1,21 @@
+# 4.1-image-prompt-template.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>image</TARGET>
+
+    <TASK>Generate an image prompt.</TASK>
+
+    <DATA>{{image_subject}}</DATA>
+
+    <STRUCTURE>
+        - Content Description
+        - Style
+        - Camera
+        - Lighting
+        - Composition
+    </STRUCTURE>
+
+    <OUTPUT>
+        Structured image prompt.
+    </OUTPUT>
+</MIND_SCRIPT>

@@ -1,0 +1,27 @@
+# 3.1-flowchart.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>diagram</TARGET>
+
+    <TASK>Create a flowchart description.</TASK>
+
+    <DATA>{{process_description}}</DATA>
+
+    <STRUCTURE>
+        nodes:
+            - Start
+            - Step 1
+            - Step 2
+            - Decision
+            - Outcome
+        edges:
+            - Start → Step 1
+            - Step 1 → Step 2
+            - Step 2 → Decision
+            - Decision → Outcome
+    </STRUCTURE>
+
+    <OUTPUT>
+        Node list + edge list.
+    </OUTPUT>
+</MIND_SCRIPT>

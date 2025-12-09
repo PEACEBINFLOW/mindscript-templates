@@ -1,0 +1,24 @@
+# 6.1-browser-automation.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>automation</TARGET>
+
+    <TASK>Automate a browser sequence.</TASK>
+
+    <DATA>
+        url: {{target_url}}
+        actions: {{actions_list}}
+    </DATA>
+
+    <STRUCTURE>
+        - Open browser
+        - Navigate
+        - Action List
+        - Extract Data
+        - Close
+    </STRUCTURE>
+
+    <OUTPUT>
+        Deterministic action flow.
+    </OUTPUT>
+</MIND_SCRIPT>

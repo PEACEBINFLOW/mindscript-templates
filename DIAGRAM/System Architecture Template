@@ -1,0 +1,23 @@
+# 3.2-system-architecture.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>diagram</TARGET>
+
+    <TASK>Define a system architecture.</TASK>
+
+    <DATA>{{system_components}}</DATA>
+
+    <STRUCTURE>
+        components:
+            - Frontend
+            - Backend
+            - Database
+            - AI Engine
+        connections:
+            - Frontend ↔ Backend
+            - Backend ↔ Database
+            - Backend ↔ AI Engine
+    </STRUCTURE>
+
+    <OUTPUT>Architecture diagram structure.</OUTPUT>
+</MIND_SCRIPT>

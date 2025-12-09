@@ -1,0 +1,19 @@
+# 5.1-storyboard-template.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>video</TARGET>
+
+    <TASK>Create a storyboard.</TASK>
+
+    <DATA>{{story_idea}}</DATA>
+
+    <STRUCTURE>
+        Scene 1: timestamp + description  
+        Scene 2: timestamp + description  
+        Scene 3: timestamp + description  
+    </STRUCTURE>
+
+    <OUTPUT>
+        Structured storyboard.
+    </OUTPUT>
+</MIND_SCRIPT>

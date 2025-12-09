@@ -1,0 +1,26 @@
+# 2.2-multi-stage-essay.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>text</TARGET>
+
+    <TASK>Write a 5-section essay.</TASK>
+
+    <DATA>{{topic}}</DATA>
+
+    <STAGE number="1">
+        Generate outline.
+    </STAGE>
+
+    <STAGE number="2">
+        Expand each section to 150 words.
+    </STAGE>
+
+    <RULES>
+        - Deterministic output.
+        - Formal tone.
+    </RULES>
+
+    <OUTPUT>
+        Sectioned essay.
+    </OUTPUT>
+</MIND_SCRIPT>

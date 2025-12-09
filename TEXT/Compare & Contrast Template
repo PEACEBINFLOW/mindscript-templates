@@ -1,0 +1,26 @@
+# 2.3-compare-contrast.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>text</TARGET>
+
+    <TASK>Compare and contrast two items.</TASK>
+
+    <DATA>
+        item_1: {{A}}
+        item_2: {{B}}
+    </DATA>
+
+    <STRUCTURE>
+        - Similarities
+        - Differences
+        - Summary Table
+    </STRUCTURE>
+
+    <RULES>
+        - No bias.
+    </RULES>
+
+    <OUTPUT>
+        Structured comparison.
+    </OUTPUT>
+</MIND_SCRIPT>

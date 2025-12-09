@@ -1,0 +1,31 @@
+# 2.1-outline-generator.ms.md
+
+<MIND_SCRIPT>
+    <TARGET>text</TARGET>
+
+    <TASK>
+        Generate a structured outline with hierarchical sections.
+    </TASK>
+
+    <DATA>
+        {{insert_topic_here}}
+    </DATA>
+
+    <STRUCTURE>
+        - Title
+        - Section 1
+        - Section 1.1
+        - Section 1.2
+        - Section 2
+        - Section 2.1
+    </STRUCTURE>
+
+    <RULES>
+        - No paragraphs, only outline structure.
+        - Terms must be concise.
+    </RULES>
+
+    <OUTPUT>
+        Clean bullet hierarchy.
+    </OUTPUT>
+</MIND_SCRIPT>
